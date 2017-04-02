@@ -1,0 +1,25 @@
+<!doctype html>
+<head>
+  <<meta>>
+  <title><<t $in.title>></title>
+</head>
+
+<<header>>
+<div class="main-container">
+<h1>Adrian Heine né Lang</h1>
+
+<<for section, contacts in $in.data>>
+<h2><<t section>></h2>
+<table>
+<<for type, data in contacts>>
+<tr><th><<t type>></th><td>
+<<if data instanceof Array>>
+  <<d data[2] = data[2] || []; data[2].rel = data[2].rel || "me" >>
+  <a rel='<<t data[2].rel>>' href='<<t data[0]>>' title='<<t data[1]>>'><<t data[1]>></a>
+<<else>><<h data>><</if>>
+<</for>>
+</table>
+<</for>>
+
+</div>
+<<footer>>

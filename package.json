@@ -1,0 +1,19 @@
+{
+  "name": "adrianheine.de",
+  "version": "0.0.0",
+  "description": "Adrian Heine’s website",
+  "dependencies": {
+    "heckle-blog": "^0.2.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adrianheine/adrianheine.de"
+  },
+  "keywords": [
+    "website"
+  ],
+  "author": "Adrian Heine <mail@adrianheine.de>",
+  "license": "CC-BY-SA-3.0",
+  "scripts": {"install": "cd src && nodejs --use_strict --harmony ../node_modules/.bin/heckle"}
+}
