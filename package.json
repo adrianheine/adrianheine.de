@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "Adrian Heine’s website",
   "dependencies": {
-    "heckle-blog": "git@github.com:adrianheine/heckle.git#patch-1"
+    "heckle-blog": "https://github.com/marijnh/heckle.git#c70fdf9a437a3f19352f3d7ffa98b45d47205aeb"
   },
   "devDependencies": {},
   "repository": {
